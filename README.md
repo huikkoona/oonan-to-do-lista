@@ -1,9 +1,9 @@
-# oonan-to-do-lista
+# oonan-To-Do-lista
 DOM-scriptaus tehtävä
 
-Oonan To-Do Lista
 
-  Yksinkertainen To-Do-lista-sovellus, jossa voi lisätä tehtäviä, merkitä ne tehdyiksi. Sovellus tallentaa tehtävät paikallisesti        selaimeen, ja ne pysyvät tallessa myös sivun päivityksen jälkeen.
+
+Yksinkertainen To-Do-lista-sovellus, jossa voi lisätä tehtäviä, merkitä ne tehdyiksi. Sovellus tallentaa tehtävät paikallisesti        selaimeen, ja ne pysyvät tallessa myös sivun päivityksen jälkeen.
 
 Ominaisuudet:
 
