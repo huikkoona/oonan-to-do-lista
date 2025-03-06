@@ -1,0 +1,113 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffe6f2; /* Vaaleanpunainen tausta */
+    display: flex;
+    justify-content: center;  /* Keskittää sisällön vaakasuoraan */
+    align-items: center;      /* Keskittää sisällön pystysuoraan */
+    height: 100vh;            /* Täyttää koko näytön korkeuden */
+    margin: 0;                /* Poistetaan oletus marginaali */
+    box-sizing: border-box;   /* Varmistaa, ettei paddingit ja marginaalit muuta kokoa */
+}
+
+/* Sovelluksen pääkehys */
+.container {
+    background: #ffb6c1; /* Vaaleanpunainen laatikko */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    width: 350px; /* Laatikon leveys */
+}
+
+/* Otsikko */
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Syöttökenttä ja nappi */
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff69b4; /* Kirkkaanpinkki reunus */
+    outline: none;
+    background: #fff;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Lisää-nappi */
+#addTaskBtn {
+    background-color: #ff69b4; /* Kirkkaanpinkki */
+    color: #ffffff;
+}
+
+#addTaskBtn:hover {
+    background-color: #ff1493; /* Tummempi pinkki */
+}
+
+/* Tehtävälista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    padding: 10px;
+    background: #ffc0cb; /* Vaaleanpunainen tehtävärivi */
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tehtävien merkitseminen ja poistaminen */
+button {
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* Tehtävän tehtäväksi merkitsemisen nappi */
+button:first-child {
+    background-color: #98fb98; /* Vaaleanvihreä */
+}
+
+button:first-child:hover {
+    background-color: #32cd32; /* Kirkkaampi vihreä */
+}
+
+/* Tehtävän poistamisen nappi */
+button:last-child {
+    background-color: #ff6347; /* Punainen */
+    color: white;
+}
+
+button:last-child:hover {
+    background-color: #ff0000; /* Tummempi punainen */
+}
+
+/* Kun tehtävä on valmis */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    background: #e6e6fa; /* Vaalea liila */
+}
