@@ -87,10 +87,9 @@ button {
 }
 
 /* tehtävä on valmis */
-.completed {
+.completed span {
     text-decoration: line-through;
     color: #888;
-    background: #e6e6fa; 
 }
 
 /* tehtävä laatikko ja ruksi */
