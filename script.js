@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let taskText = taskInput.value.trim();
         
         if (taskText === "") {
-            alert("Tehtävä ei voi olla tyhjä!");
+            alert("Kirjota nyt jotain ees 🥺");
             return;
         }
 
