@@ -13,7 +13,7 @@ Ominaisuudet:
   - Klikkaa "Lisää" lisätäksesi tehtävän.
   - Klikkaa checkboxia merkitäksesi tehtävä tehdyksi. ( Tehtävän pitäisi yliviivautua automaattisesti, mutta en millään saanut sitä       toimimaan )
 
-
+käytetty näitä:
 
   - HTML
   - CSS
